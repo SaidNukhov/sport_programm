@@ -1,0 +1,45 @@
+/* Обнуление стилей */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    line-height: 1.15; /* Устанавливает базовую высоту строки */
+    -webkit-text-size-adjust: 100%; /* Предотвращает изменение размера текста на мобильных устройствах */
+}
+
+body {
+    margin: 0;
+}
+
+/* Заголовки */
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+/* Списки */
+ul, ol {
+    list-style: none;
+}
+
+/* Ссылки */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Изображения */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Формы */
+input, button, textarea, select {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
